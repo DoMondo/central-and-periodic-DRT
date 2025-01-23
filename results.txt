@@ -1,0 +1,63 @@
+make[1]: 'radon-halide-64-host-manual_sched' is up to date.
+
+./radon-halide-64-host-manual_sched
+test_radon_drtf( in/test1_64.jpg )
+DRTf time:	  0.607058 ms
+test_radon_periodic_drtf( in/test1_64.jpg )
+DRTf time:	  0.228378 ms
+test_radon_central_drtf( in/test1_64.jpg )
+DRTf time:	  0.19453 ms
+make[1]: 'radon-halide-128-host-manual_sched' is up to date.
+
+./radon-halide-128-host-manual_sched
+test_radon_drtf( in/test1_128.jpg )
+DRTf time:	  1.79482 ms
+test_radon_periodic_drtf( in/test1_128.jpg )
+DRTf time:	  0.495285 ms
+test_radon_central_drtf( in/test1_128.jpg )
+DRTf time:	  0.52665 ms
+make[1]: 'radon-halide-256-host-manual_sched' is up to date.
+
+./radon-halide-256-host-manual_sched
+test_radon_drtf( in/test1_256.jpg )
+DRTf time:	  5.35907 ms
+test_radon_periodic_drtf( in/test1_256.jpg )
+DRTf time:	  1.86494 ms
+test_radon_central_drtf( in/test1_256.jpg )
+DRTf time:	  1.99099 ms
+make[1]: 'radon-halide-512-host-manual_sched' is up to date.
+
+./radon-halide-512-host-manual_sched
+test_radon_drtf( in/test1_512.jpg )
+DRTf time:	  22.8081 ms
+test_radon_periodic_drtf( in/test1_512.jpg )
+DRTf time:	  7.6395 ms
+test_radon_central_drtf( in/test1_512.jpg )
+DRTf time:	  9.01625 ms
+make[1]: 'radon-halide-1024-host-manual_sched' is up to date.
+
+./radon-halide-1024-host-manual_sched
+test_radon_drtf( in/test1_1024.jpg )
+DRTf time:	  97.2312 ms
+test_radon_periodic_drtf( in/test1_1024.jpg )
+DRTf time:	  36.1306 ms
+test_radon_central_drtf( in/test1_1024.jpg )
+DRTf time:	  37.8131 ms
+make[1]: 'radon-halide-2048-host-manual_sched' is up to date.
+
+./radon-halide-2048-host-manual_sched
+test_radon_drtf( in/test1_2048.jpg )
+DRTf time:	  664.418 ms
+test_radon_periodic_drtf( in/test1_2048.jpg )
+DRTf time:	  268.346 ms
+test_radon_central_drtf( in/test1_2048.jpg )
+DRTf time:	  325.06 ms
+make[1]: 'radon-halide-4096-host-manual_sched' is up to date.
+
+./radon-halide-4096-host-manual_sched
+test_radon_drtf( in/test1_4096.jpg )
+DRTf time:	  2577.52 ms
+test_radon_periodic_drtf( in/test1_4096.jpg )
+DRTf time:	  973.59 ms
+test_radon_central_drtf( in/test1_4096.jpg )
+DRTf time:	  952.077 ms

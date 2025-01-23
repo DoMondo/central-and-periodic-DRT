@@ -1,0 +1,25 @@
+# IMPORTANT: You have to generate a standalone toolchain first to be able to
+# cross-compile to ARM64. This operation has to be done only once:
+#
+# $SDK_INSTALL_PATH/ndk-bundle/build/tools/make_standalone_toolchain.py --arch arm64 --stl libc++ --api 21 --install-dir /opt/arm64-standalone-toolchain
+#
+# Where $SDK_INSTALL_PATH is usually `~/Android/Sdk', but can be different
+# depending on your local configuration
+
+[binaries]
+c = '/opt/arm64-standalone-toolchain/bin/aarch64-linux-android-clang'
+cpp = '/opt/arm64-standalone-toolchain/bin/aarch64-linux-android-clang++'
+ar = '/opt/arm64-standalone-toolchain/bin/aarch64-linux-android-ar'
+strip = '/opt/arm64-standalone-toolchain/bin/aarch64-linux-android-strip'
+pkgconfig = 'dummy'
+
+[properties]
+sysroot = '/opt/arm64-standalone-toolchain/sysroot'
+cpp_args = ['-D__ANDROID__'] 
+cpp_link_args = ['-static-libstdc++']
+
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'arm64-v8a'
+endian = 'little'
