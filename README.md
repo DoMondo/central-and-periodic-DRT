@@ -1,7 +1,7 @@
-# Central and Periodic-DRT
+# Central and Periodic Multi-Scale Discrete Radon Transforms
 
 <p align="center">
-    <img src="cover.gif" alt="Demo video" style="width:300px;"/>
+    <img src="cover.gif" alt="Demo video" style="width:500px;"/>
 </p>
 
 
