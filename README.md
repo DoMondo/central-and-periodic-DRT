@@ -54,7 +54,7 @@ Two dependencies are needed in order to run this project:
 
 ### Halide Installation
 
-Download with `Halide 10.0.1` from the [releases](https://github.com/halide/Halide/releases/tag/v15.0.0) page. Then extract it in a direcory of your choice and define the variable `HALIDE_ROOT` pointing to the root of the repo. You can use the following script. Adjust the correct version for your architecture if needed.
+Download with `Halide 10.0.1` from the [releases](https://github.com/halide/Halide/releases/tag/v10.0.1) page. Then extract it in a direcory of your choice and define the variable `HALIDE_ROOT` pointing to the root of the repo. You can use the following script. Adjust the correct version for your architecture if needed.
 
 ```shell
 wget https://github.com/halide/Halide/releases/download/v10.0.1/Halide-10.0.1-x86-64-linux-efb326253c73a555d7a4608e41228665d1785e97.tar.gz
